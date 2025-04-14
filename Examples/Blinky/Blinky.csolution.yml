@@ -1,6 +1,6 @@
 # A solution is a collection of related projects that share same base configuration.
 solution:
-  created-for: CMSIS-Toolbox@2.6.0
+  created-for: CMSIS-Toolbox@2.9.0
   cdefault:
 
   # List of tested compilers that can be selected
@@ -21,6 +21,14 @@ solution:
     - type: STM32H745I-DISCO
       board: STMicroelectronics::STM32H745I-DISCO
       device: STMicroelectronics::STM32H745XIHx
+      target-set:
+        - set:
+          debugger:
+            name: ST-LINK
+            start-pname: CM7
+          images:
+            - project-context: Blinky_cm4.Debug
+            - project-context: Blinky_cm7.Debug
 
   # List of different build configurations.
   build-types:
