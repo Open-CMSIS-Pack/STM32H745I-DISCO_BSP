@@ -80,7 +80,6 @@
       <book category="schematic" name="https://www.st.com/resource/en/schematic_pack/mb1381-h745xi-b01-schematic.pdf" title="Schematics"/>
       <book category="other"     name="Documents/README.md" title="Guide"/>
       <mountedDevice    deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32H745XIHx"/>
-      <compatibleDevice deviceIndex="0" Dvendor="STMicroelectronics:13" DsubFamily="STM32H745"/>
       <feature type="ODbg"      n="1"              name="On-board ST-LINK-V3E"/>
       <feature type="PWR"       n="6"              name="STLK, USBPWR, USBFS, POE5V, E5V, CHGR"/>
       <feature type="ROM"       n="2"              name="512-Mbit Quad-SPI NOR Flash memory"/>
