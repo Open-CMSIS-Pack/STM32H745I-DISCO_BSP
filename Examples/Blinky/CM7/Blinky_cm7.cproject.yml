@@ -37,3 +37,10 @@ project:
     - script:  ./RTE/Device/STM32H745XIHx_CM7/ac6_linker_script.sct.src
       regions: ./RTE/Device/STM32H745XIHx_CM7/regions_STM32H745I-DISCO.h
       for-compiler: AC6
+
+  output:
+    type:
+      - elf
+      - bin
+      - hex
+      - map
