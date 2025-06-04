@@ -13,12 +13,12 @@
   </licenseSets>
 
   <releases>
-    <release version="1.0.0-dev">
-      Prepared for new CMSIS-Toolbox CubeMX integration
-      Board description for STM32H745I-DISCO
-      Blinky example (CMSIS Solution)
-      CMSIS Drivers:
-      - CMSIS-Driver VIO
+    <release version="1.0.1-dev">
+      Active development ...
+      Blinky project:
+      - specify thread names using thread attributes
+      - rename thread IDs
+      - modify app_main_thread (replace loop forever)
     </release>
   </releases>
 
@@ -95,7 +95,7 @@
       <feature type="GLCD"      n="1"  m="480.272" name="4.3-inch 480x272 TFT color LCD with capacitive touch panel"/>
       <feature type="MemCard"   n="1"              name="4-Gbyte on-board eMMC"/>
       <feature type="MIC"       n="1"              name="ST MEMS microphone"/>	  
-      <debugInterface adapter="ST-Link" connector="Micro-USB"/>
+      <debugInterface adapter="ST-LINK" connector="Micro-USB"/>
       <debugProbe connector="Micro-USB" debugClock="10000000" debugLink="swd" name="ST-Link"/>
     </board>
   </boards>
