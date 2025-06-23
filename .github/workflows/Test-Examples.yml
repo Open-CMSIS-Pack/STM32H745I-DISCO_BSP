@@ -62,7 +62,6 @@ jobs:
         working-directory: ./
         run: |
           mkdir -p ./CI/Examples/Blinky
-          # Enable the option to copy hiden files and folders
           cp -a ./BSP/Examples/Blinky/. ./CI/Examples/Blinky/
 
 
